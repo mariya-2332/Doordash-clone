@@ -45,11 +45,10 @@ body{
   
 }
 .section svg{
-      width: 63px;
-    border: 1px solid #f1f1f1ff
-;
-    height: 63px;
+      width: 64px;
+    border: 1px solid #f1f1f1ff;
     border-radius: 12px;
+    height: 64px;;
 }
 .head{
   max-width: 100%;
@@ -61,7 +60,6 @@ body{
   font-size:16px ;
   font-weight:700 ;
   line-height:22px ;
-  letter-spacing:-0.01 ;
   text-decoration:none ;
   text-transform:none ;
   display: block;
@@ -144,14 +142,14 @@ color: #606060ff;
   font-size: 16px;
   font-weight: bolder;
 }
-.main-container-one{
+.main-container-one{ 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     -webkit-box-pack: start;
     -webkit-box-align: center;
-}
+} 
 .main-container-two{
 
     background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
@@ -178,7 +176,7 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: row;
-margin: 20px 0;
+
 }
 .logo-name{
 line-height: 0px;
@@ -213,7 +211,7 @@ justify-content: center;
 .first-order1{
       display: flex;
     justify-content: center;
-    margin-bottom:24px;
+    margin-bottom:24px;.enter-delivery-address
 }
 
 .fee{
@@ -417,7 +415,7 @@ justify-content: center
  margin-top:16px ;
  position: relative;
  max-width: 100%;
- margin: 0px;
+
  padding: 0px;
  display: inline-flex;
  min-height: 32px;
@@ -464,17 +462,35 @@ max-width: 100%;
 width: 100%;
 padding: 0px;
 margin: 0px;
+}
+.search-login{
 
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+    
+.login{
+  padding: 0px 12px;
+}
 
-
-
-
-
+.login-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
-
-
+.text{
+  margin-left: 4px;
+  font-family: 'bold';
+  font-size:px;
+}
 
 
 
