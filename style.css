@@ -69,6 +69,7 @@ body{
   white-space: nowrap;
   margin: 0px;
   padding: 0px;
+  margin-top:-1px;
 
 }
 .first-order{
@@ -85,7 +86,7 @@ body{
   text-overflow: ellipsis;
   max-width: 100%;
   overflow: hidden;
-  margin: 0px;
+  margin:0px;
   padding: 0px;
 }
 .star{
@@ -130,17 +131,29 @@ color: #606060ff;
 }
 .open{
   align-self: center;
-  grid-area: 1/3;
+ 
+
+
 }
 .section-btn {
   background-color: red;
   border: none;
   border-radius: 30px;
-  padding: 7px 12px;
-  color: #ffff;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:32px;
+  
+  /* margin-top:-1px; */
+}
+
+.opn{
+color: #ffff;
   font-family: 'bold';
   font-size: 16px;
   font-weight: bolder;
+  line-height: 22px;
 }
 .main-container-one{ 
     display: flex;
@@ -152,7 +165,7 @@ color: #606060ff;
 } 
 .main-container-two{
 
-    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
     height: 550px;
     padding: 0px 8px;
     display: flex;
@@ -164,10 +177,13 @@ color: #606060ff;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+
 .logo-with-name{
 margin-top:-8px;
 display: flex;
 justify-content: center;
+margin: 20px 0;
 
 }
 .logo-with-name-centre{
@@ -211,7 +227,7 @@ justify-content: center;
 .first-order1{
       display: flex;
     justify-content: center;
-    margin-bottom:24px;.enter-delivery-address
+    margin-bottom:24px;
 }
 
 .fee{
@@ -485,12 +501,24 @@ margin: 0px;
   justify-content: center;
 }
 
-
 .text{
   margin-left: 4px;
   font-family: 'bold';
-  font-size:px;
+  font-size:14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.logo{
+
+  display: flex;
+}
+
+
+
+
+
 
 
 
