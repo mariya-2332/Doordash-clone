@@ -1,0 +1,489 @@
+@font-face {
+  font-family: 'regular';
+  src: url('/Assets/TTNorms-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family:'bold';
+  src: url('/Assets/TTNorms-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family:'medium' ;
+  src: url('/Assets/TTNorms-Medium.woff2') format('woff2');
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+    overflow-x: hidden;
+
+-webkit-font-smoothing: antialiased;}
+*::after, ::before {
+    box-sizing: border-box;
+}
+.page-1{
+  max-width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 8px;
+  padding:8px ;
+  margin-top:16px;
+}
+.section {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  max-width: 100%;
+  -webkit-box-align: center;
+  -webkit-box-pack: start;
+  flex-direction: row;
+  border-radius: 4px;
+  
+}
+.section svg{
+      width: 63px;
+    border: 1px solid #f1f1f1ff
+;
+    height: 63px;
+    border-radius: 12px;
+}
+.head{
+  max-width: 100%;
+  margin-bottom: 1px;
+}
+.Browser{
+  color: #191919ff;
+  font-family: 'bold';
+  font-size:16px ;
+  font-weight:700 ;
+  line-height:22px ;
+  letter-spacing:-0.01 ;
+  text-decoration:none ;
+  text-transform:none ;
+  display: block;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+
+}
+.first-order{
+
+ color: #606060ff;
+ font-family: 'medium';
+  font-size:14px ;
+  font-weight:500 ;
+  line-height:20px ;
+  letter-spacing:-0.01 ;
+  text-decoration:none ;
+  text-transform:none ;
+  display: block;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.star{
+color: #606060ff;
+ font-family: 'medium';
+  font-size:14px ;
+  font-weight:500 ;
+  line-height:20px ;
+  letter-spacing:-0.01 ;
+  text-align: left;
+  text-transform:none;
+  overflow: hidden;
+  white-space:normal;
+  display: flex;
+  align-items: center;
+}
+.star-1{
+  margin: 0 2px;
+}
+.star-2{
+  margin-right: 2px;
+}
+.rating{
+  color: #606060ff;
+ font-family: 'medium';
+  font-size:14px ;
+  font-weight:500 ;
+  line-height:20px ;
+  letter-spacing:-0.01 ;
+  text-align: left;
+  text-transform:none;
+  display: block;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  white-space:nowrap;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  margin-left: 4px;
+  
+}
+.open{
+  align-self: center;
+  grid-area: 1/3;
+}
+.section-btn {
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+  padding: 7px 12px;
+  color: #ffff;
+  font-family: 'bold';
+  font-size: 16px;
+  font-weight: bolder;
+}
+.main-container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-box-align: center;
+}
+.main-container-two{
+
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+    height: 550px;
+    padding: 0px 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-size:cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo-with-name{
+margin-top:-8px;
+display: flex;
+justify-content: center;
+
+}
+.logo-with-name-centre{
+max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+margin: 20px 0;
+}
+.logo-name{
+line-height: 0px;
+margin-left: 8px;
+
+}
+.logo-with-name-centre svg{
+    width: 32px;
+    height: 18px;
+    fill: #ffffff;
+}
+.logo-name svg{
+    width: 112px;
+    height: 13px;
+    fill:#ffffff
+}
+.doordash{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin-left: 8px;
+}
+.delivery{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.first-order1{
+      display: flex;
+    justify-content: center;
+    margin-bottom:24px;
+}
+
+.fee{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight:900;
+font-size:32px;
+color: rgb(255 255 255);
+text-align: center;
+line-height: 28px;
+padding: 0px;
+margin: 0px;
+max-width: 350px;
+max-height:56px ;
+}
+.navigation{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 79px;
+  margin-top:32px;
+  z-index:1;
+}
+.open-app{
+padding-left:16px;
+padding-right:24px;
+display: flex;
+justify-content: flex-end;
+gap: 8px;
+}
+.open-app-attri{
+position: relative;
+max-width:100%;
+padding: 0px;
+display: inline-flex;
+text-decoration: none;
+min-height: 32px;
+width: auto;
+align-items: center;
+justify-content: flex-start;
+border-radius: 9999px;
+border: none;
+cursor: pointer;
+text-align: center;
+background-color: #eb1700ff;
+box-shadow: 1px;
+color: #ffffff;
+}
+.nav-1{
+display: block;
+flex-grow: 1px;
+max-width: 100%;
+padding: 0px 12px;
+cursor: pointer;
+text-align: center;
+color: #ffffff;
+}
+.nav-2{
+
+max-width: 100%;
+display: flex;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+flex-direction: row;
+ cursor: pointer;
+text-align: center;
+color: #ffffff;
+}
+.nav-3{
+flex-grow: 2;
+min-width: 0px;
+display: flex;
+justify-content: center;
+cursor: pointer;
+text-align: center;
+color: #ffffff;
+}
+.nav-4{
+width: 100%;
+font-family:'bold';
+font-size:14px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+display: block;
+text-overflow: ellipsis;
+max-width: 100%;
+white-space: nowrap;
+margin: 0px;
+padding: 0px;
+}
+.open-app-1{
+color: rgb(255, 255, 255);
+font-family: 'bold';
+font-size:16px;
+font-weight:700; 
+line-height: 22px;
+margin: 0px;
+padding: 0px;
+display: block;
+}
+.center-portion{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+.delivery-adress{
+border-radius:12px;
+}
+.search-bar{
+ width: 100%;
+}
+.search-box{
+max-width:100%;
+display: block;
+}
+.enter-1{
+
+  display: flex;
+  min-height: 40px;
+}
+.enter-2{
+border-radius:32px;
+font-family:'bold';
+font-size: 16px;
+background-color: white;
+line-height:22px; 
+font-weight:500;
+color:#191919ff; 
+display:flex;
+align-items:center;
+padding:6px 16px;
+width:100%;
+}
+
+.enter-3{
+  max-width: 100%;
+  margin-right:12px;
+}
+.enter-3-first-class{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 24px;
+pointer-events: none;
+}
+.white-search{
+
+  display: flex;
+    flex-grow: 1;
+    background-color: #ffff;
+    
+    max-width: 100%;
+    margin: 0 12px 0 auto;
+}
+.white-search input{
+
+      font-family: 'medium';
+
+
+}
+.search-btn-1{
+  text-overflow: ellipsis;
+  font-family:'regular';
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  width:100%;
+  border: none;
+  display: flex;
+  
+  color:black;
+  margin: 0px;
+  padding: 0px;
+}
+.section-btn-2{
+
+max-width: 100%;
+margin-right: 0px;
+}
+.arrow{
+
+position: relative;
+max-width: 100%;
+margin: 0px;
+display: inline-flex;
+min-height:40px;
+border-radius:9999px;
+border: none;
+text-align: center;
+background-color:#ffffff;
+color: #191919ff;
+height: 40px; width: 40px;
+padding: 0px;
+align-items: center;
+justify-content: center  
+}
+.enter-delivery-address{
+ margin-top:16px ;
+ position: relative;
+ max-width: 100%;
+ margin: 0px;
+ padding: 0px;
+ display: inline-flex;
+ min-height: 32px;
+ width: auto;
+ align-items: center;
+ justify-content: flex-start;
+ border-radius:9999px;
+ border: none;
+ background-color: #ffffff;
+ color:#191919ff;
+}
+.enter-delivery-address-1{
+display: block;
+flex-grow: 1;
+max-width: 100%;
+min-width: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-shrink: 2;
+width: 16px;
+    
+}
+.login-btn {
+
+ flex-grow: 2;
+ min-width: 0px;
+ display: flex;
+ justify-content: center;
+ margin-left:4px;
+}
+.login-btn-1{
+
+color: black;
+font-family: 'bold';
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+display: block;
+text-overflow: ellipsis;
+max-width: 100%;
+width: 100%;
+padding: 0px;
+margin: 0px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
