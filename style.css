@@ -738,7 +738,7 @@ padding: 0px;
 .daher-content{
 margin-top: 0px;
 color: #191919ff;
-font-family: 'regular';
+font-family: 'medium';
 font-size: 18px;
 font-weight: 500;
 line-height: 24px;
@@ -759,7 +759,7 @@ align-items: center;
 }
 .dasher-start-text{
 color: #eb1700ff;
-font-family: 'medium';
+font-family: 'bold';
 font-size: 14px;
 font-weight: 700;
 line-height: 20px;
@@ -773,8 +773,6 @@ width: 4px;
 margin-left:5px;
 }
 .arrow-sign{
-
-
 width: 16 px;
 height: 16px;
 
