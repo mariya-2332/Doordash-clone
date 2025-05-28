@@ -1152,15 +1152,264 @@ flex-direction: row;
   font-family: 'bold'
   
 }
+.doorstep{
+
+width: 100%;
+}
+.doorstep-page1{
+display: flex;
+flex-direction: column;
+padding: 20px 20px 20px 20px;
+min-width: 90%;
+align-items: center;
+}
+.doorstep-img{
+
+  width: 100%;
+  height:180px;
+  object-fit: cover;
+
+}
+
+.doorstep-pic{
+
+  height: 180px;
+  width: 335px;
+
+}
+
+.doorstep-content{
+
+display: flex;
+flex-direction: column;
+}
+.doorstep-content-heading{
+
+text-align: left;
+max-width: 90%;
+margin-top: 20px;
+color: #191919ff;
+font-family:'medium' ;
+font-size: 24px;
+font-weight: 700;
+line-height:28px ;
+letter-spacing: -0.01px;
+text-decoration: none;
+display: block;
+padding: 0px;
+
+}
+.doorstep-content-sub-heading{
+
+text-align: left;
+margin-top: 10px;
+color: #191919ff;
+font-family:'bold' ;
+font-size: 14px;
+font-weight: 500;
+line-height:20px ;
+letter-spacing: -0.01px;
+text-decoration: none;
+display: 'medium';
+padding: 0px;
+}
+.dos-gifting{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254, 241, 238);
+    padding: 40px 20px 20px;
+    width: 100%;
+}
+.shop-now{
+margin-top: 20px;
+}
+.shop-btn-style{
+position: relative;
+max-width: 100%;
+margin: 0px;
+padding: 0px;
+display: inline-flex;
+min-height: 32px;
+width: auto;
+align-items: center;
+justify-content: flex-start;
+border-radius: 9999px;
+border: none;
+text-decoration: none;
+text-align: center;
+background-color: #eb1700ff;
+color: #ffffff;
+
+}
+.shop-btn-style-1{
+display: block;
+  flex-grow: 1;
+  max-width: 100%;
+  opacity: 1;
+}
+.shop-btn-style-1-1{
+ padding: 0px 12px;
+}
+.shop-btn-style-2{
+
+max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+.shop-btn-style-3{
+
+   flex-grow: 2;
+  min-width: 0px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'bold'
+  
+}
+.dos-gifting{
+display: flex;
+justify-content: center;
+background-color: rgb(254, 241, 238);
+padding: 40px 20px 20px;
+width: 100%;
+}
+
+.dos-gifting-heading{
+text-align: center;
+max-width: 300px;
+color: #191919ff;
+font-family:'medium' ;
+font-size: 24px;
+font-weight: 700;
+line-height:28px ;
+letter-spacing: -0.01px;
+text-decoration: none;
+display: block;
+padding: 0px;
+}
+ .dos-gifting-body{ 
+
+background-color: rgb(254, 241, 238);
 
 
 
+}
+
+
+.dos-gifting-body-style-1{
+   margin-left: 5%;
+    margin-right: -10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    -webkit-box-align: center;
+    align-items: center;
+}
 
 
 
+.dos-gifting-img{
 
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 
+}
+.Return-packages{
 
+    text-align: center;
+    align-items: center;
+    display: flex;
+     flex-direction: column;
+
+}
+.Return-packages-heading{
+
+text-align: center;
+max-width: 90%;
+margin:20px 0px 0px;
+color: #191919ff;
+font-family:'medium';
+font-size: 24px;
+font-weight: 700;
+line-height:28px ;
+letter-spacing: -0.01px;
+text-decoration: none;
+display: block;
+padding: 0px;
+}
+.Return-packages-sub-heading{
+text-align: left;
+margin-top: 10px;
+color: #191919ff;
+font-family:'bold' ;
+font-size: 14px;
+font-weight: 500;
+line-height:20px ;
+letter-spacing: -0.01px;
+text-decoration: none;
+display: 'medium';
+padding: 0px;
+
+}
+.Return-packages-btn{
+
+margin-top: 20px;
+}
+.Return-packages-btn-style{
+position: relative;
+max-width: 100%;
+margin: 0px;
+padding: 0px;
+display: inline-flex;
+min-height: 32px;
+width: auto;
+align-items: center;
+justify-content: flex-start;
+border-radius: 9999px;
+border: none;
+text-decoration: none;
+text-align: center;
+background-color: #eb1700ff;
+color: #ffffff;
+
+}
+.Return-packages-btn-style-1{
+
+display: block;
+  flex-grow: 1;
+  max-width: 100%;
+  opacity: 1;
+
+}
+.Return-packages-btn-style-1-1{
+
+ padding: 0px 12px;
+
+}
+
+.Return-packages-btn-style-2{
+
+max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+.Return-packages-btn-style-3{
+
+ flex-grow: 2;
+  min-width: 0px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'bold'
+
+}
 
 
 
