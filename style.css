@@ -1544,7 +1544,113 @@ margin-top: 12px;
   text-decoration: none; 
 
 }
+.get_to_know_container{
+  flex-direction: column;
+  text-align: center;
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 32px;
+}
+.get_to_know_container h2{
+  margin-bottom: 8px;
+  color:rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01px;
+}
+.get_to_know_container span{
+  color: rgb(196, 196, 196);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "medium";
+}
+ast{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+.footersection{
+    margin-top: 13.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.footerlogo1{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.footerservice{
+    color: #ddd7d7;
+    font-family: font5;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.01px;
+    display: block;
+    margin-left: 16px;
+}
+.footerlogo2{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    padding: 1px;
+}
+.footerlogo3{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 12px;
+}
+.footerlogo4{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 12px;
+}
+.face_camera{
+justify-content:center;
+display: flex;
+padding: 32px 0px;
+}
+.face_camera_property{
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.face_camera_property svg{
+  opacity: 0.7;
+}
+.cross{
+  margin-left:12px;
+}
+.camera{
+  margin-left:12px;
+}
+.glb{
+  padding: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 150px;
+  
 
+}
 
 .inup_btn{
   display: none;
