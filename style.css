@@ -225,7 +225,7 @@ body {
 }
 
 .fee {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "bold";
   font-weight: 900;
   font-size: 32px;
   color: rgb(255 255 255);
@@ -245,6 +245,7 @@ body {
   margin-top: 32px;
   z-index: 1;
 }
+
 .open-app {
   padding-left: 16px;
   padding-right: 24px;
@@ -376,13 +377,13 @@ body {
   background-color: #ffff;
 
   max-width: 100%;
-  margin: 0 12px 0 auto;
+  margin-right:12px ;
 }
 .white-search input {
   font-family: "medium";
 }
 .search-btn-1 {
-  text-overflow: ellipsis;
+ 
   font-family: "medium";
   font-size: 16px;
   line-height: 22px;
@@ -432,6 +433,24 @@ body {
   border: none;
   background-color: #ffffff;
   color: #191919ff;
+}
+.sign_in_address{
+   margin-top: 16px;
+  position: relative;
+  max-width: 100%;
+
+  padding: 0px;
+  display: inline-flex;
+  min-height: 32px;
+  width: auto;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 9999px;
+  border: none;
+  background-color: #ffffff;
+  color: #191919ff;
+
+
 }
 .enter-delivery-address-1 {
   display: block;
@@ -668,10 +687,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.dasher-child-1 {
+/* .dasher-child-1 {
   max-width: 768px;
   margin: 0px auto;
-}
+} */
 .dasher-child-2 {
   display: flex;
   justify-content: center;
@@ -685,6 +704,9 @@ body {
   justify-content: center;
   height: 100%;
   flex-direction: column;
+}
+.dasher-parent{
+  display: contents;
 }
 .dasher-child-4 {
   display: flex;
@@ -720,7 +742,7 @@ body {
   padding: 0px;
 }
 .daher-content {
-  margin-top: 0px;
+  margin-top: 0px !important;
   color: #191919ff;
   font-family: "medium";
   font-size: 18px;
@@ -764,9 +786,9 @@ body {
 width: 16 px;
 height: 16px;
 } */
-.everything-parent {
+/* .everything-parent {
   display: contents;
-}
+} */
 .everything-child-1 {
   width: 100%;
 }
@@ -795,10 +817,10 @@ height: 16px;
   text-align: left;
   max-width: 90%;
   margin: 20px 0px 0px;
-  font-family: "medium";
+  font-family: "bold";
   color: #191919ff;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 28px;
   letter-spacing: -0.01px;
   display: block;
@@ -806,7 +828,7 @@ height: 16px;
 }
 .everything-cont-sub-head {
   text-align: left;
-  font-family: "medium";
+  font-family: "bold";
   margin: 10px 0px 0px;
   color: #191919ff;
   font-size: 18px;
@@ -980,7 +1002,7 @@ height: 16px;
   font-size: 14px;
 }
 .grocery-page {
-  background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,for…managed/consumer/seo/home/hero_v3/hero_mobile.png);
+  background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
   position: relative;
   height: 350px;
   background-size: cover;
@@ -988,8 +1010,8 @@ height: 16px;
 }
 .grocery-page-main-1 {
   background-color: rgba(30, 30, 30, 0.6);
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   position: relative;
@@ -999,8 +1021,9 @@ height: 16px;
   text-align: center;
   align-items: center;
   margin: 0;
-  max-width: 550px;
 }
+
+
 .grocery-page-main-2 {
   display: flex;
   flex-direction: column;
@@ -1121,7 +1144,7 @@ height: 16px;
   max-width: 80%;
   margin-top: 20px;
   color: #191919ff;
-  font-family: "bold";
+  font-family: "medium";
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -1329,7 +1352,7 @@ height: 16px;
 .businesses-main-heading {
   text-align: center;
   max-width: 90%;
-  margin: 20px 0px 0px;
+  /* margin: 20px 0px 0px; */
   color: #191919ff;
   font-family: "medium";
   font-size: 24px;
@@ -1353,14 +1376,18 @@ height: 16px;
   margin-bottom: 20px;
   font-family: 'medium';
 }
+.gap_top_city{
+  gap: 24px;
+  display: grid;
+}
 .top_sct{
 display: flex;
 justify-content: center;
 width: 100%;
 flex-direction:row;
-gap: 24px;
+align-items: baseline;
 }
-.top_cities{
+.top_cities1{
  width: 33.33%;
  display: flex;
  height: 40px;
@@ -1368,11 +1395,31 @@ gap: 24px;
  align-items:center;
  text-align: center;
  background: #ffffffff;
- border-bottom: 3px solid transparent;
-  box-shadow: 0 3px 0 var(#191919ff); 
-  padding-bottom:12px ;
+ border-bottom: 3px solid black;
+ padding-bottom:12px ;
 }
-
+.top_cities2{
+ width: 33.33%;
+ display: flex;
+ height: 40px;
+ justify-content: center;
+ align-items:center;
+ text-align: center;
+ background: #ffffffff;
+ border-bottom: 3px solid #f1f1f1ff;
+padding-bottom:12px ;
+}
+.top_cities3{
+ width: 33.33%;
+ display: flex;
+ height: 40px;
+ justify-content: center;
+ align-items:center;
+ text-align: center;
+ background: #ffffffff;
+ border-bottom: 3px solid #f1f1f1ff;
+ padding-bottom:12px ;
+}
 .city_text{
   font-family:'medium';
   color:#191919ff;
@@ -1392,10 +1439,9 @@ gap: 24px;
   line-height: 24px;
   letter-spacing: -0.01px;
   margin: 0;
-  border-bottom: 3px solid transparent;
   box-shadow: 0 3px 0 var(#191919ff); 
-  padding-bottom:12px ;
 }
+
 .city_name_main{
   display: flex;
   flex-direction: column;
@@ -1459,7 +1505,7 @@ gap: 24px;
   width: 100vw;
   background-color: #191919ff;
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
 text-align: center;
  padding: 0px 20px;
 
@@ -1471,8 +1517,6 @@ text-align: center;
   flex: 1 1 0%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
-   gap: 12px;
    padding: 32px 0px;
  
 }
@@ -1485,6 +1529,11 @@ text-align: center;
   line-height: 22px;
   letter-spacing: -0.01px;
   margin-top: 0px;
+}
+.gap_property{
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .footer_first_section{
   flex-direction: column;
@@ -1550,7 +1599,6 @@ margin-top: 12px;
   flex: 1 1 0%;
   display: flex;
   justify-content: space-between;
-  gap: 12px;
   padding-top: 32px;
 }
 .get_to_know_container h2{
@@ -1560,72 +1608,21 @@ margin-top: 12px;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.01px;
+  font-family: "medium";
 }
 .get_to_know_container span{
   color: rgb(196, 196, 196);
   font-size: 14px;
   font-weight: 500;
   font-family: "medium";
+  line-height: 20px;
+  margin-top: 8px;
 }
-ast{
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 0;
-}
-.footersection{
-    margin-top: 13.5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 100%;
-    align-items: center;
-    flex-direction: row;
-}
-.footerlogo1{
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-.footerservice{
-    color: #ddd7d7;
-    font-family: font5;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.01px;
-    display: block;
-    margin-left: 16px;
-}
-.footerlogo2{
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    opacity: 0.7;
-    padding: 1px;
-}
-.footerlogo3{
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: 12px;
-}
-.footerlogo4{
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: 12px;
-}
+
 .face_camera{
 justify-content:center;
 display: flex;
-padding: 32px 0px;
+
 }
 .face_camera_property{
   flex-wrap: nowrap;
@@ -1642,69 +1639,249 @@ padding: 32px 0px;
 .camera{
   margin-left:12px;
 }
-.glb{
+.terms_with_logo{
+ flex-direction:column-reverse;
+ align-items: center;
+ text-align: center;
+ padding: 32px 0px;
+ display: flex;
+}
+.terms{
+  margin-top: 12px;
+  display: flex;
+ flex-wrap: wrap; 
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: row;
+
+}
+.last_logo{
+  max-width: 100%;
+display: flex;
+justify-content:flex-start;
+max-width: 100%;
+flex-direction: row;
+align-items: center;
+}
+.last_logo svg{
+  width: 32px;
+  height: 18px;
+  fill: #ffffff;
+}
+.terms_of_service{
+  margin-left: 12px;
+  color:rgb(196, 196, 196);
+  font-family: "medium";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01px;
+
+}
+.gobal{
   padding: 12px;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 150px;
-  
+}
+.gobal_property{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  min-height: 32px;
 
 }
+.gobal_sub_property{
+  font-family: 'medium';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01px;
+  color:#191919ff;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  border-radius: 32px;
+  padding: 4px 12px;
+  background-color:#f1f1f1ff ;
+  margin-right: 8px;
 
-.inup_btn{
+}
+.english{
+  flex-grow: 1;
+  position: relative;
+}
+.dwn_arrow{
+  width: 24px;
+  height: 24px;
+  color:white;
+}
+
+
+
+ .input-btn{
+  display: none;
+} 
+.sign_in_address{
   display: none;
 }
+.main-container-768{
+  display:none;
+}
+.enter-3-location{
+display: none;
+}
 
 
-@media screen and (min-width: 768px) {
-.page-1 {
-    display: none;
-  }
-.navigation {
-    display: none;
-  }
+@media screen and (min-width:768px){
+
 .enter-delivery-address {
+    display:flex;
+  }
+  .page-1{
     display: none;
   }
-.fee {
-    font-weight: 900;
-    max-width: 750px;
-    text-align: center;
-    font-family: "bold";
-    color: rgb(255, 255, 255);
-    font-size: 40px;
+  .open-app-attri{
+    display: none;
   }
-.top_bar_logo {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+
+  .logo-with-con-app{
+    display: none;
   }
-.inup_btn{
-
-  display: inline-flex;
-
-}
-.sign-btn{
-position: relative;
-max-width:100%;
-margin: 0px;
-padding: 0px;
-display: inline-flex;
-min-height: 40px;
-width: auto;
-align-items: center;
-justify-content: flex-start;
-border-radius: 9999px;
-text-decoration: none;
-text-align: center;
-background-color:#eb1700ff;
-color:#ffffff;
-
+  .log_use_container{
+    display: none;
+  }
+  .sign_in_address{
+  display:flex;
 }
 
+.enter-3-first-class{
+  display: none;
+}
+.logo-with-name{
+  transform: translateY(-207px);
+  margin-block: 24px;
+}
+
+.man_sign{
+  margin-top: 16px;
+  min-height: 32px;
+  align-items: center;
+  border-radius: 9999px;
+  border: none;
+}
+.man_sign_property{
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+}
+ .input-btn{
+  padding-left: 16px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+} 
+ .fee {
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 900;
+  font-size: 40px;
+  color: rgb(255 255 255);
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: -0.01px;
+  padding: 0px;
+  margin: 0px;
+  max-width: 750px;
+  max-height: 56px;
+}
+
+
+.enter-2{
+  padding: 8px 8px 8px  20px;
+ width: 408px;
+}
+.enter-3-location{
+  display: flex;
+
+}
+.enter-3-location{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  pointer-events: none;
+}
+.main-container-two{
+  height:650px ;
+}
+.dasher-child-2{
+  margin: 32px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scooty{
+  margin-right: 64px;
+}
+.scooty img{
+  height: 124px;
+  width: 124px;
+}
+/*dasher-child-1{
+  max-width: 768px;
+  margin: 0px auto;
+} */
+.everything-child-2{
+display: flex;
+gap: 60px;
+flex-direction: row-reverse;
+justify-content: center;
+margin-bottom: -60px;
+padding: 20px;
+
+}
+.everything-child-3{
+  max-width: 1184px;
+  display:flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.everything-child-3 img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+}
+.everything-cont-head{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: 'bold';
+  
+}
+.everything-cont-sub-head{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "medium";
+
+}
+.everything-content-details{
+  font-size: 16px;
+  line-height: 22px;
+
+}
+.everything-end{
+  margin-top: 30px;
+}
+.everything-search {
+ min-height: 40px;
+}
+.everything-search-child-3{
+font-size: 16px;
+font-weight:500;
+line-height: 22px;
+}
 }
